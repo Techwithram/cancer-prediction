@@ -34,7 +34,7 @@ print(r2_score(y_test,a))
 print(average_precision_score(y_test,a))
  
 
-st.title("Brest Cancer Prediction")
+st.title("Breast Cancer Prediction")
 st.header("Training data set")
 st.write(data)
 with st.expander("see visualisation"):
